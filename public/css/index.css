@@ -1,11 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #001F3F; /* Dark blue background */
+    color: white;
 }
 
 .menu-bar {
     background-color: #333;
-    color: white;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -36,12 +37,22 @@ main {
 
 .media-player-card {
     display: inline-block;
-    text-align: center;
+    max-width: 400px; /* Adjust the maximum width of the card */
+    background-color: #111; /* Dark background for the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for a 3D effect */
+    overflow: hidden; /* Ensure the shadow is visible */
+    margin-bottom: 20px; /* Add margin for spacing */
+    margin-top: 300px;
 }
 
 .media-player-card img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0; /* Round the top corners */
+}
+
+.card-content {
+    padding: 15px;
 }
 
 .song-title {
@@ -49,11 +60,16 @@ main {
     font-weight: bold;
 }
 
+.media-controls {
+    margin-top: 20px; /* Add margin to separate controls from content */
+}
+
 .media-controls button {
     background: none;
     border: none;
     font-size: 1.5em;
     cursor: pointer;
+    color: white;
 }
 
 footer {
