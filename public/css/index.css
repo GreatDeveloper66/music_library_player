@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-menu button {
+    margin-right: 10px;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.media-player-card {
+    display: inline-block;
+    text-align: center;
+}
+
+.media-player-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.song-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.media-controls button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
